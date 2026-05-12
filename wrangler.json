@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "nexus-gateway-deploy",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "f5bdd939-b831-4b54-9021-62f3885a9b5e",
+			"database_name": "nexus-mainnet-vault"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
